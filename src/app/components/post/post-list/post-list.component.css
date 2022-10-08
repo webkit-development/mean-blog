@@ -1,0 +1,15 @@
+.aside {
+  width: 30%;
+  margin: 30px;
+}
+.aside {
+  display: inline-block;
+}
+.main {
+  width: 50%;
+  margin: 30px auto;
+}
+
+.main {
+  display: inline-block;
+}
