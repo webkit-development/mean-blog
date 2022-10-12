@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from "@angular/forms";
 import {AppRoutingModule} from "./app-routing.module";
 import {HttpClientModule} from "@angular/common/http";
 import {MatToolbarModule} from "@angular/material/toolbar";
@@ -20,6 +21,8 @@ import { UserListComponent } from './components/user/user-list/user-list.compone
 import {UserService} from "./services/user.service";
 import {PostService} from "./services/post.service";
 import {CommentService} from "./services/comment.service";
+import {MatFormFieldModule} from "@angular/material/form-field";
+import {MatInputModule} from "@angular/material/input";
 
 
 @NgModule({
@@ -43,7 +46,10 @@ import {CommentService} from "./services/comment.service";
     MatCardModule,
     MatButtonModule,
     MatMenuModule,
-    MatExpansionModule
+    MatExpansionModule,
+    FormsModule,
+    MatFormFieldModule,
+    MatInputModule
   ],
   providers: [UserService, PostService, CommentService],
   bootstrap: [AppComponent]

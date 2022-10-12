@@ -11,3 +11,34 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 .text-left {
   text-align: left;
 }
+.mx-auto {
+  margin: auto;
+}
+.mt-7 {
+  margin-top: 70px;
+}
+.mt-1 {
+  margin-top: 10px;
+}
+.mb-7 {
+  margin-bottom: 70px;
+}
+.p-2 {
+  padding: 20px;
+}
+.pt-2 {
+  padding-top: 20px;
+}
+.width-600 {
+  width: 600px;
+}
+.width-80 {
+  width: 80% !important;
+}
+.width-100 {
+  width: 100% !important;
+}
+.color-indigo {
+  text-decoration: none;
+  color: dodgerblue;
+}
