@@ -8,6 +8,7 @@ import { MatMenuModule } from "@angular/material/menu";
 import { MatCardModule } from "@angular/material/card";
 import { MatButtonModule } from "@angular/material/button";
 import { MatExpansionModule } from "@angular/material/expansion";
+import { MatChipsModule } from "@angular/material/chips";
 import { AppComponent } from './app.component';
 import { PostListComponent } from './components/post/post-list/post-list.component';
 import { PostCreateComponent } from './components/post/post-create/post-create.component';
@@ -49,7 +50,8 @@ import {MatInputModule} from "@angular/material/input";
     MatExpansionModule,
     FormsModule,
     MatFormFieldModule,
-    MatInputModule
+    MatInputModule,
+    MatChipsModule
   ],
   providers: [UserService, PostService, CommentService],
   bootstrap: [AppComponent]
